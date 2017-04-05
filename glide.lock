@@ -1,0 +1,8 @@
+hash: 06b1a42c434bf2ff13d02c15af5fa430f1e79bcd6e58cb5d9cd856e86092efcc
+updated: 2017-04-05T13:32:14.543500795-04:00
+imports:
+- name: github.com/cloudfoundry-community/go-cfenv
+  version: f920e9562d5f951cbf11785728f67258c38a10d0
+- name: github.com/joho/godotenv
+  version: 325433c502d409f3c3dc820098fb0cfe38d98dc7
+devImports: []

@@ -1,0 +1,4 @@
+package: github.com/dave-malone/cf-events-slackbot
+import:
+- package: github.com/cloudfoundry-community/go-cfenv
+- package: github.com/joho/godotenv
