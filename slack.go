@@ -32,7 +32,7 @@ func newSlackMessage(channel, message string) *slackMessage {
 }
 
 func (s *slack) sendMessage(message *slackMessage) error {
-	formValues := url.Values{"token": {s.apiToken}, "channel": {message.channel}, "text": {message.message}}
+	formValues := url.Values{"token": {s.apiToken}, "channel": {message.channel}, "text": {message.message}, "username": {"cf-events"}, "icon_url": {"https://avatars.slack-edge.com/2017-04-05/165715574023_4906d5bac66d24089767_72.png"}}
 
 	resp, err := http.PostForm(postMessageURL, formValues)
 	if err != nil {
