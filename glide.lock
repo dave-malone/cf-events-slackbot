@@ -1,10 +1,14 @@
-hash: 2eadb3e4a42299710732ad25068a36825abc58e12fc5be7ae502c528ffc3906c
-updated: 2017-04-06T18:13:21.740845536-04:00
+hash: 50c2425ca336aa2e48d68cf6dd8140f692aa20078d379d0c77a81d1db5189e8b
+updated: 2017-04-06T22:54:08.339486885-04:00
 imports:
 - name: github.com/cloudfoundry-community/go-cfclient
   version: 7a650d23186012cbfea0b1eb36f5ce7f3417c5e3
 - name: github.com/cloudfoundry-community/go-cfenv
   version: f920e9562d5f951cbf11785728f67258c38a10d0
+- name: github.com/dave-malone/go-cfclient
+  version: 7a650d23186012cbfea0b1eb36f5ce7f3417c5e3
+- name: github.com/go-redis/redis
+  version: dd76391eb986c2ea0aba41e9edde61ff7e0d4b28
 - name: github.com/golang/protobuf
   version: 2bba0603135d7d7f5cb73b2125beeda19c09f4ef
   subpackages:
